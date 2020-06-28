@@ -1,5 +1,4 @@
 补充一些python基础知识
-python 基础语法
 Python 中的类： https://docs.python.org/zh-cn/3.7/tutorial/classes.html
 Python 定义函数： https://docs.python.org/zh-cn/3.7/tutorial/controlflow.html#defining-functions
 
@@ -24,5 +23,5 @@ cookie = SimpleCookie(cookies_fromchrome)
 cookies = {i.key:i.value for i in cookie.values()}
 
 # 将cookies添加到 scrapy.Request
-    def start_requests(self):
-        yield scrapy.Request(url=self.start_urls[0],callback=self.parse,dont_filter=False,cookies=self.cookies)
+def start_requests(self):
+    yield scrapy.Request(url=self.start_urls[0],callback=self.parse,dont_filter=False,cookies=self.cookies)
