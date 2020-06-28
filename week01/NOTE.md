@@ -1,8 +1,5 @@
 补充一些python基础知识
 python 基础语法
-Python 简介： https://docs.python.org/zh-cn/3.7/tutorial/introduction.html
-Python 数据结构： https://docs.python.org/zh-cn/3.7/tutorial/datastructures.html
-Python 其他流程控制工具 : https://docs.python.org/zh-cn/3.7/tutorial/controlflow.html
 Python 中的类： https://docs.python.org/zh-cn/3.7/tutorial/classes.html
 Python 定义函数： https://docs.python.org/zh-cn/3.7/tutorial/controlflow.html#defining-functions
 
